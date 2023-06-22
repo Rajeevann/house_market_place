@@ -55,9 +55,6 @@ const Signup = () => {
   return (
     <Layout title="signup - house marketplace">
       <div className="row signup-container">
-        <div className="col-md-6 signup-container-col-1">
-          <img src="./assets/signup.svg" alt="welcome" />
-        </div>
         <div className="col-md-6 signup-container-col-2">
           <form onSubmit={onSubmitHndler}>
             <h3 className=" mt-2 text-center ">Sign Up </h3>

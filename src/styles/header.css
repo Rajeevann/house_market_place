@@ -2,14 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Titillium+Web&display=swap");
 
 .navbar {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   background: linear-gradient(90deg, rgba(23, 107, 135, 1), rgba(0, 28, 48, 1));
 }
 .navbar .navbar-brand {
-  color: #fff !important;
-  font-family: "Roboto", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
 }
 .navbar .navbar-toggler-icon {
   color: #f9e4d4 !important;
@@ -24,14 +23,7 @@
 .navbar .nav-item a:hover {
   border-radius: 10px/30px;
   color: #000000;
-  background: rgb(218, 255, 251);
-  background: linear-gradient(
-    90deg,
-    rgba(218, 255, 251, 1) 0%,
-    rgb(255, 255, 255) 0%
-  );
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px !important;
+  border-bottom: #fff;
 }
 .navbar .active {
   border-radius: 10px/30px;

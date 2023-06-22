@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,100;1,200;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Titillium+Web&display=swap");
+.footer {
+  background-color: #001c30 !important;
+  background: linear-gradient(
+    90deg,
+    rgba(23, 107, 135, 1),
+    rgba(0, 28, 48, 1)
+  ) !important;
+}
+.footer h3 {
+  font-family: "Poppins";
+  font-size: 20px;
+}
+
+.footer p:hover {
+  background-color: #f9e4d4 !important;
+  color: #f9e4d4 !important;
+  padding: 2px;
+  width: 100%;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .footer h3 {
+    font-size: 1rem !important;
+  }
+  .footer-gif {
+    height: 40px !important;
+    width: 40px !important;
+  }
+}

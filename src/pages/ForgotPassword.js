@@ -23,9 +23,7 @@ const ForgotPassword = () => {
   return (
     <Layout title="forgot password page">
       <div className="row forgot-password-container">
-        <div className="col-md-7 forgot-password-col1">
-          <img src="./assets/forgot-password.svg" alt="forgot-img" />
-        </div>
+        <div className="col-md-7 forgot-password-col1"></div>
         <div className="col-md-5 forgot-password-col2">
           <h1>Reset Your Password</h1>
           <form onSubmit={onSubmitHandler}>

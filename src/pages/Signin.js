@@ -45,12 +45,9 @@ const Signin = () => {
   return (
     <Layout title="signin - house marketplace">
       <div className="row m-4 signin-container ">
-        <div className="col-md-6">
-          <img src="./assets/loginpage.svg" alt="login" />
-        </div>
         <div className="col-md-6 signin-container-col2">
           <form onSubmit={loginHandler}>
-            <h4 className=" text-center">Sign In</h4>
+            <h1 className=" text-center">Sign In</h1>
             <div className="mb-3">
               <label htmlFor="exampleInputEmail1" className="form-label">
                 Email address

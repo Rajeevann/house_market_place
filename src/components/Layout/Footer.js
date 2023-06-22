@@ -9,15 +9,14 @@ const Footer = () => {
       <h3>
         Made With
         <img
-          src="./assets/love.gif"
+          src="https://user-images.githubusercontent.com/52352285/96442452-c64f2700-1228-11eb-8c92-35a64d4cef32.gif"
           alt="love"
           height={60}
-          width={80}
+          width={120}
           className="mx-3 footer-gif"
         />
-        From India
       </h3>
-      <h6>All Right Reserved &copy; TECHINFOYT - 2022</h6>
+      <h6>All Right Reserved &copy; Rajeevan - 2023</h6>
       <div className="d-flex flex-row p-2">
         <p className="me-4" title="Github">
           <Link to="/">

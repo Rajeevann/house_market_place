@@ -2,7 +2,7 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { BsBuilding } from "react-icons/bs";
 import { FaBars } from "react-icons/fa";
-import "../../styles/Header.css";
+import "../../styles/header.css";
 
 const Header = () => {
   return (

@@ -5,7 +5,7 @@ import "../../styles/footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer pt-4 d-flex flex-column align-items-center justify-content-center bg-dark text-light p-4">
+    <div className="footer pt-4 d-flex flex-column align-items-center justify-content-center bg-dark text-light p-2">
       <h3>
         Made With
         <img
